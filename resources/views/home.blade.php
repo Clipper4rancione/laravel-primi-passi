@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1>HELLO LARAVEL</h1>
+    <h1>{{ $saluto }} {{ $nome_framework }}</h1>
 </body>
 
 </html>
