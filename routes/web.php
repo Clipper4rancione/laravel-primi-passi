@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $saluto = "Ciao";
+    $nome_framework = "Laravel";
+
+    return view('home', ['saluto' => $saluto, 'nome_framework' => $nome_framework]);
 });
